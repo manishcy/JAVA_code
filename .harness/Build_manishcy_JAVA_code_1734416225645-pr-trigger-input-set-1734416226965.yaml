@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_manishcy_JAVA_code_1734416225645-pr-trigger-input-set
+  identifier: Build_manishcy_JAVA_code_1734416225645prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: SweetsAtMyDesk
+  pipeline:
+    identifier: Build_manishcy_JAVA_code_1734416225645
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
