@@ -9,7 +9,7 @@ pipeline:
         build:
           type: branch
           spec:
-            branch: main
+            branch: master
         connectorRef: account.Github
         repoName: manishcy/JAVA_code
   stages:
