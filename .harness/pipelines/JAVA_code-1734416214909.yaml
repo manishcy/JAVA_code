@@ -6,7 +6,10 @@ pipeline:
   properties:
     ci:
       codebase:
-        build: <+input>
+        build:
+          type: branch
+          spec:
+            branch: main
         connectorRef: account.Github
         repoName: manishcy/JAVA_code
   stages:
